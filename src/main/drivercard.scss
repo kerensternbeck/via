@@ -1,0 +1,50 @@
+.driver-card {
+  background-color: #ffffff;
+  width: 140px;
+  height: 210px;
+  margin: 4px;
+  padding: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  &.hovered {
+    .driver-image {
+      height: 96px;
+    }
+  }
+
+  .driver-image {
+    position: relative;
+    height: 136px;
+    .image-holder {
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      box-sizing: border-box;
+      height: 100%;
+      &.empty {
+        background-color: #f1f1f1;
+      }
+    }
+    .driver-icon {
+      left: 10px;
+      position: absolute;
+      bottom: -12px;
+      height: 24px;
+    }
+  }
+  .driver-info {
+    font-size: 10px;
+    margin-top: 26px;
+    .driver-details {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 120px;
+      color: #8C827A;
+      &.name {
+        font-size: 12px;
+        font-weight: bold;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #f1f1f1;
+}
+
+.main {
+  flex: 1;
+  overflow: auto;
+  padding: 70px 0;
+}

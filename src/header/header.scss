@@ -1,0 +1,26 @@
+.header-container {
+  width: 100%;
+  height: 56px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #20b8ea;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .header-text {
+    margin-left: 58px;
+    color: #ffffff;
+    font-size: 22px;
+  }
+
+  .search-bar-container {
+    margin-right: 18px;
+    .search-bar {
+      height: 30px;
+      align-items: center;
+      width: 320px;
+      border-radius: 30px;
+    }
+  }
+}
