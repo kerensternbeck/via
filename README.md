@@ -1,9 +1,12 @@
-To run the app, navigate to the project's root folder.
+Navigate to the project's root folder.
 
 To install project dependencies: 
-### npm install
+## npm install
 
 To run your app:
-### npm start.
+## npm start.
 
-The dev server defaults to port 3000.
+The app will open in your browser.
+
+Note: The dev server defaults to port 3000.
+
